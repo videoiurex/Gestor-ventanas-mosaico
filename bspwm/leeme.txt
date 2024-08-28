@@ -1,0 +1,14 @@
+Se deben instalar los siguientes programas:
+
+	sudo pacman -S polybar
+	sudo pacman -S rofi
+
+Se deben crear, en .config, los directorios:
+
+	mkdir bspwm
+	mkdir sxhkd
+	mkdir polybar
+
+Se tienen que copiar los ficheros correspondientes en cada directorio; renombrando polybarconfig.ini a config.ini
+
+
