@@ -5,7 +5,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d I II III IV V VI VII VIII IX X
 xrandr -s 1920x1080
 feh --bg-scale ~/Imágenes/fondos/fondo1.png
-
+nm-applet
 polybar mybar
 
 bspc config border_width        1
