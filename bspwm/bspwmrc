@@ -7,7 +7,7 @@ xrandr -s 1920x1080
 #feh --bg-scale ~/Imágenes/fondos/fondo1.png
 nitrogen --restore
 killall -q nm-applet
-nm-applet
+nm-applet &
 ~/.config/polybar/launch.sh
 
 bspc config border_width        1
