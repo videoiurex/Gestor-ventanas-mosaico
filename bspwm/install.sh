@@ -1,7 +1,7 @@
-#! /bin/bash
-mkdir ~/.config/bspwm
-mkdir ~/.config/sxhkd
-mkdir ~/.config/polybar
+#a! /bin/bash
+mkdir -p ~/.config/bspwm
+mkdir -p ~/.config/sxhkd
+mkdir -p ~/.config/polybar
 mkdir -p ~/Imágenes/fondos
 cp bspwmrc ~/.config/bspwm/bspwmrc
 cp sxhkdrc ~/.config/sxhkd/sxhkdrc
