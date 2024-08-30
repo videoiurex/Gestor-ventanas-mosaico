@@ -5,7 +5,7 @@ chosen=$(printf "Apagar\nReiniciar\nCerrarSesión" | rofi -dmenu -i)
 case "$chosen" in
   "Apagar") systemctl poweroff ;;
   "Reiniciar") systemctl reboot ;;
-  "CerrarSesión") i3-msg exit ;;
+  "CerrarSesión") kill -9 -1 ;;
   *) exit 1 ;;
 esac
 
