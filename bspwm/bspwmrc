@@ -4,9 +4,11 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 xrandr -s 1920x1080
-feh --bg-scale ~/Imágenes/fondos/fondo1.png
+#feh --bg-scale ~/Imágenes/fondos/fondo1.png
+nitrogen --restore
+killall -q nm-applet
 nm-applet
-polybar mybar
+~/.config/polybar/launch.sh
 
 bspc config border_width        1
 bspc config window_gap          1
