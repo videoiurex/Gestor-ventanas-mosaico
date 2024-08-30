@@ -127,4 +127,4 @@ XF86Audio{Mute,LowerVolume,RaiseVolume}
 	pactl set-sink-{mute 0 toggle,volume 0 -2%,volume 0 +2%}
 
 super + shift +x
-	powermenu
+	~/.local/bin/powermenu
