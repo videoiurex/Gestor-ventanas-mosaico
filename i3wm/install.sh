@@ -1,8 +1,9 @@
 #!/bin/bash
 #Copiar ficheros y directorios a home
-cp -rv i3 ~/.config/
-cp -rv polybar ~/.config/
-mkdir -p ~/Imágenes/fondos
-cp -v fondo/fondo1.png ~/Imágenes/fondos
-mkdir -p  ~/.local/bin
-cp powermenu ~/.local/bin/
+mkdir -vp ~/.config/i3
+mkdir -vp ~/Imágenes/fondos
+mkdir -vp  ~/.local/bin
+cp -v config ~/.config/i3/
+cp -v ../polybar ~/.config/
+cp -v fondo/i3wmfondo.png ~/Imágenes/fondos
+cp ../powermenu ~/.local/bin/

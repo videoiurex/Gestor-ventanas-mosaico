@@ -198,7 +198,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id xrandr -s 1920x1080
 
 #estableciendo fondo de pantalla 
-exec --no-startup-id feh --bg-scale ~/Imágenes/fondos/fondo1.png
+exec --no-startup-id feh --bg-scale ~/Imágenes/fondos/i3wmfondo.png
 
 #quitar barra de terminal
 for_window [class=".*"] border pixel 2 2 
