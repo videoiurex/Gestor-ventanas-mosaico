@@ -3,11 +3,14 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
-xrandr -s 1920x1080
-feh --bg-scale ~/Imágenes/fondos/bspwmfondo.png
-killall -q nm-applet
-nm-applet &
+
 ~/.config/polybar/launch.sh
+
+xrandr -s 1920x1080
+
+feh --bg-scale ~/Imágenes/fondos/bspwmfondo.png
+
+pgrep -x nm-applet || nm-applet &
 
 bspc config border_width        1
 bspc config window_gap          1
