@@ -5,7 +5,7 @@ xdg-user-dirs-update
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 mkdir -p ~/Imágenes/fondos
 cp  fondosway.png ~/Imágenes/fondos/fondosway.png
-cp -r themes ~/.config/rofi
+cp -r themes ~/.config/rofi/themes
 sudo cp ../powermenu /usr/bin/powermenu
 sudo cp -r ../nvim /etc/xdg/
 cp -r sway ~/.config/sway
