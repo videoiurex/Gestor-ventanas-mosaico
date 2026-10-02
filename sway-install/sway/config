@@ -21,7 +21,7 @@ set $menu rofi -show drun  -show-icons
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/apolo/Imágenes/fondos/fondosway.png fill
+#output * bg /home/apolo/Imágenes/fondos/fondosway.png fill
 #
 # Example configuration:
 #
