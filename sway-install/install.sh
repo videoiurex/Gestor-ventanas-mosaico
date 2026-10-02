@@ -1,11 +1,11 @@
 #!/bin/bash
-sudo pacman -S neovim waybar rofi feh xorg-xhost evince network-manager-applet firefox nautilus gnome-terminal otf-font-awesome
+sudo pacman -S neovim waybar rofi feh xorg-xhost lxsession evince network-manager-applet firefox nautilus gnome-terminal otf-font-awesome
 clear
 xdg-user-dirs-update
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 mkdir -p ~/Imágenes/fondos
 cp -v fondosway.png ~/Imágenes/fondos/fondosway.png
 sudo cp ../powermenu /usr/bin/powermenu
-sudo cp -r ../nvim /etc/xdg/nvim
+sudo cp -r ../nvim /etc/xdg/
 cp -r sway ~/.config/sway
 cp -r waybar ~/.config/waybar
