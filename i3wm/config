@@ -194,11 +194,19 @@ bindsym $mod+r mode "resize"
 #arrancar polybar 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+#arrancar control de energía
+exec_always --no-startup-id xfce4-power-manager
+
+#arrancar manejador de contraseñas
+exec --no-startup-id lxpolkit
+
 #ajustar  resolución
 exec --no-startup-id xrandr -s 1920x1080
 
 #estableciendo fondo de pantalla 
 exec --no-startup-id feh --bg-scale ~/Imágenes/fondos/i3wmfondo.png
+
+
 
 #quitar barra de terminal
 for_window [class=".*"] border pixel 2 2 
