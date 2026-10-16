@@ -12,6 +12,12 @@ feh --bg-scale ~/Imágenes/fondos/bspwmfondo.png
 
 pgrep -x nm-applet || nm-applet &
 
+pgrep -x xfce4-power-manager || xfce4-power-manager &
+
+pgrep -x lxpolkit || lxpolkit &
+
+
+
 bspc config border_width        1
 bspc config window_gap          1
 
