@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -S neovim waybar rofi feh xorg-xhost lxsession evince network-manager-applet firefox nautilus gnome-terminal otf-font-awesome
+sudo pacman -S neovim polybar waybar rofi feh xorg-xhost xorg-xrandr lxsession evince xfce4-power-manager network-manager-applet firefox nautilus gnome-terminal otf-font-awesome
 clear
 xdg-user-dirs-update
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
