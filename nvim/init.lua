@@ -1,4 +1,4 @@
-#Poner en: /etc/xdg/nvim (para que sirva globalmente)
+----Poner en: /etc/xdg/nvim (para que sirva globalmente)
 
 vim.opt.number=true 
 vim.opt.tabstop=4 
